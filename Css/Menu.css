@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    color: #663300;
+    padding-bottom: 15px;
+}
+
+body {
+    font-family: cursive;
+    background-color: #ffe5b4;
+    text-align: center;
+    background-image: url(Imagenes/xk2kmRircNS0SxHa_800x.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% auto;
+    background-position:top;
+}
+
+nav {
+    padding: 15px;
+    margin: 20px auto;
+    width: 42%;
+    box-shadow: 0px 4px 6px 0px #663300;
+    background-color: #ecb98a;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #663300;
+    font-size: 20px;
+    box-shadow: 0px 2px 3px 0px;
+    padding: 10px 20px;
+}   
+
+nav a:hover {
+    background-color: #d6eeee;
+}
+
+.rcontainer {
+    display: flex;
+    background-color: #ffad60;
+    padding: 15px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 22.4%;
+    height: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url(Imagenes/Inugami.Korone.full.2713278.png);
+    background-position: 60% 50%;
+    background-size: cover;
+}
+
+.lcontainer {
+    display: flex;
+    background-color: #ffad60;
+    padding: 15px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 22.4%;
+    height: 90%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(Imagenes/clgpd277a7961.webp);
+    background-position: 0%;
+    background-size: cover;
+}

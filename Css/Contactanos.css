@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1;
+    color: #333;
+    position: relative;
+    background-image: url(Imagenes/nJ4a3DXhYo70YAaR9wji5F2G_8fOL-4AKbzIM7ZBRVk.webp);
+    background-position: center; 
+
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: 75% 10%;
+}
+
+header {
+    background-color: #ecb98a;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #663300;
+}
+
+nav a {
+    color: #663300;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+section.contact-section {
+    padding: 120px 20px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f4ee;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: #663300;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #663300;
+    margin-bottom: 8px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #d6c1b1;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.form-group button {
+    background-color: #ecb98a;
+    color: #663300;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #d9a97b;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ecb98a;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    color: #663300;
+}
+
+.korone-image-left, .korone-image-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1; 
+}
+
+.korone-image-left {
+    left: 0;
+    padding-left: 20px;
+}
+
+.korone-image-right {
+    right: 0;
+    padding-right: 20px;
+}
+
+.korone-image-left img, .korone-image-right img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}

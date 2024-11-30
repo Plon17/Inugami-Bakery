@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Panaderia Yuubi Yuubi</title>
+        <link rel = "stylesheet" href = "Menu.css">
+        <link rel="icon" type = "jpeg" href="Imagenes/OIP.png">
+    </head>
+
+    <body>
+        <h1>Panaderia Yuubi Yuubi</h1>
+        <nav>
+            <a href="product.html" class="play-audio">Productos</a>
+            <a href="AcercaDe.html" class="play-audio">Acerca De</a>
+            <a href="Reseñas.html" class="play-audio">Reseñas</a>
+            <a href="Contactanos.html" class="play-audio">Contactanos</a>
+        </nav>
+
+        <audio autoplay src="Audio/歌ってみたスイートマジック 戌神ころね.mp3" type = "audio/mp3"></audio>
+        <audio id="audio" src="Audio/korone's yubi yubi! sound effect.mp3"></audio>
+        
+        <div class="rcontainer"></div>
+        <div class="lcontainer"></div>
+    </body>
+
+    <footer>
+
+    </footer>
+    <script>
+        const playLinks = document.querySelectorAll('.play-audio');
+        const audio = document.getElementById('audio');
+    
+        playLinks.forEach((playLink) => {
+            playLink.addEventListener('click', (event) => {
+                event.preventDefault(); 
+                audio.play(); 
+                
+                setTimeout(() => {
+                    window.location.href = playLink.href; 
+                }, audio.duration * 1000); 
+            });
+        });
+    </script>
+</html>
